@@ -1,0 +1,27 @@
+{
+  "name": "inventory-app-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev" : "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arjun-kb/inventory-app-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type" : "module",
+    "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mongoose": "^8.20.0",
+    "nodemon": "^3.1.11"
+  },
+  "bugs": {
+    "url": "https://github.com/arjun-kb/inventory-app-api/issues"
+  },
+  "homepage": "https://github.com/arjun-kb/inventory-app-api#readme"
+}
